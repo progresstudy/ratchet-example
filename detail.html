@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hackathon</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="js/ratchet.js"></script>
+     <script name="baidu-tc-cerfication" type="text/javascript" charset="utf-8" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
+ <script type="text/javascript">
+    Blend.lightInit({
+        ak:"EQ4bbZOKYCusvkvoQM6bBYdH",
+        module:["socialshare", "blendui"]
+    });
+
+ </script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-left-nav pull-left" href="index.html"></a>
+
+      <a class="icon icon-more-vertical pull-right" href="#shareModal" ></a>
+      <h1 class="title"></span>Ratchet</h1>
+
+
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+
+      <div class="slide">
+        <img src="img/silder1.jpg" alt="Argo" width="100%" height="100%">
+      </div>
+     <div class="content-padded">
+      <h4>深入浅出MySQL入门必备</h4>
+      <p>讲师：任小龙</p>
+      <p>课程类型：技术教程 难易程度：高级</p>
+      <p>[课程介绍]：<br/>
+        MySQL是最流行的关系型数据库管理系统，在WEB应用方面MySQL是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。</p>
+      <p>
+      [课程目标]：<br/>了解MySQL数据原理，掌握MySQL的安装与配置，全面掌握MySQL的应用！
+      </p>
+
+      </div>
+    <div class="bar bar-standard bar-footer-secondary">
+      <button class="btn btn-block">去报名</button>
+    </div>
+
+
+
+<div id="shareModal" class="popover">
+  <ul class="table-view">
+      <li class="table-view-cell media coustom-small fix-table-view-cell">
+    <a class="">
+      <!--<span class="media-object pull-left icon icon-pages "></span> -->
+
+      <i class="fa fa-star fa-fw media-object pull-left icon "></i>
+      <div class="media-body">
+        收藏
+      </div>
+    </a>
+  </li>
+
+  <li class="table-view-cell media coustom-small fix-table-view-cell">
+    <a class="">
+      <!--<span class="media-object pull-left icon icon-pages "></span> -->
+
+      <i class="fa fa-comments fa-fw media-object pull-left icon "></i>
+      <div class="media-body">
+        评论
+      </div>
+    </a>
+  </li>
+
+  <li class="table-view-cell media coustom-small fix-table-view-cell">
+    <a class="" id="shareBtn">
+      <!--<span class="media-object pull-left icon icon-pages "></span> -->
+
+      <i class="fa fa-share-alt fa-fw media-object pull-left icon "></i>
+      <div class="media-body">
+        分享
+      </div>
+    </a>
+  </li>
+  <li class="table-view-cell media coustom-small fix-table-view-cell">
+    <a class="">
+      <!--<span class="media-object pull-left icon icon-pages "></span> -->
+      <i class="fa fa-user fa-fw  media-object pull-left icon "></i>
+      <div class="media-body">
+        小组
+      </div>
+    </a>
+  </li>
+
+  </ul>
+
+</div>
+
+    </div>
+
+  </body>
+</html>
